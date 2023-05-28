@@ -110,27 +110,39 @@ Python este un limbaj de programare care oferă o serie de caracteristici și av
 
 # Setarea mediului
 
-Urmeaza instructiunele din [setup](setup.md)
+Urmăzați instrucțiunile din [setup](setup.md)
 
 # Executarea primului program Python
 
+După configurarea proiectului în PyCharm, veți fi întâmpinat de un fișier cu cod Python.
+
+Acest fișier conține un program simplu care va afișa în consolă un mesaj.
+
+
+```python
+# This is a sample Python script.
+def print_hi(name):
+    print(f'Hi, {name}')
+    
+if __name__ == '__main__':
+    print_hi('PyCharm')
+```
+
+
+
 ## Executarea din PyCharm
 
-Dupa configurarea proiectului in PyCharm, vei fi intalnit de un fisier cu cod Python.
-
-Acest fisier contine un program simplu ce va afisa in consola. 
-
-Pentru a rula acest program, e necesar sa dai click pe butonul play din IDE.
+Pentru a rula acest program, este necesar să faceți clic pe butonul play din IDE.
 
 ![](assets/20230528141402.png)
 
-PyCharm va rula programul si vei vedea in consola care va aparea in partea de jos a ecranului mesajul `Hi, PyCharm`.
+PyCharm va rula programul și veți vedea în consolă, care va apărea în partea de jos a ecranului, mesajul `Hi, PyCharm`.
 
 
 ## Executarea din Terminal (CMD)
 
-Pentru a rula programul din terminal, poti deschide terminalul in PyCharm: ![](assets/20230528141719.png)
+Pentru a rula programul din terminal, puteți deschide terminalul în PyCharm: ![](assets/20230528141719.png)
 
-Pentru a rula fisierul cu programul nostru, poti utiliza comanda: `python main.py`.
+Pentru a rula fișierul cu programul nostru, puteți utiliza comanda: `python main.py`.
 
 ![](assets/20230528141746.png)
